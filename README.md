@@ -29,11 +29,11 @@
 
 ## Key Components Explained
 
-1. Users
+`1. Users`
 
 Visitors access your website via a browser. Requests are automatically routed to the nearest CloudFront edge location.
 
-2. Amazon CloudFront
+`2. Amazon CloudFront`
 
 Acts as a global CDN
 
@@ -43,7 +43,7 @@ Serves content via HTTPS using an SSL certificate
 
 Protects against DDoS via AWS Shield (built-in)
 
-3. Amazon S3 Bucket
+`3. Amazon S3 Bucket`
 
 Stores static website assets (HTML, CSS, JavaScript, images)
 
@@ -51,7 +51,7 @@ Cost-efficient, scalable, and highly durable
 
 Not publicly accessible when using CloudFront + OAC
 
-4. Origin Access Control (OAC)
+`4. Origin Access Control (OAC)`
 
 Ensures CloudFront is the only entity allowed to access the S3 bucket
 

@@ -98,8 +98,6 @@ Error document: error.html
 
 ## Step 3. Upload website files
 
-Upload:
-
 index.html
 
 error.html

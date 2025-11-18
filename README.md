@@ -102,50 +102,12 @@ Upload:
 
 index.html
 
-```
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My Static Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Welcome to My AWS S3 + CloudFront Website</h1>
-    <p>Deployed using Amazon S3 and CloudFront CDN.</p>
-</body>
-</html>
-```
-
 error.html
-
-```
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Error Page</title>
-</head>
-<body>
-    <h1>Oops! Page not found.</h1>
-    <p>Please go back to the homepage.</p>
-</body>
-</html>
-```
 
 style.css
 
-```body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    text-align: center;
-    padding: 40px;
-}
-
-h1 {
-    color: #2c3e50;
-}
-```
-
 images/
+
 scripts/
 
 ## Step 4. Add bucket policy (public read)
